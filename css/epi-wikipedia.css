@@ -15,6 +15,24 @@ a {
   border-bottom: 1px solid #BBB;
   margin-bottom: 5px;
 }
+
+.green-wikitable h1 {
+  background-color: #cef2e0;
+  width:100%;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 5px 5px 5px 5px;
+  border: 1px solid #a3bfb1;
+}
+
+.blue-wikitable h1 {
+  background-color: #cedff2;
+  width:100%;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 5px 5px 5px 5px;
+  border: 1px solid #a3b0bf;
+}
 #all-content {
 }
 
@@ -35,20 +53,40 @@ a {
 
 }
 
+.pix {
+  float: right;
+  margin: 6px;
+}
+
+.pixText {
+  font-size: 12.3px;
+  color: black;
+  word-break:break-all;
+}
+
+#miracles {
+  width:133px;
+}
+
+#prez {
+  width:102px;
+}
 #toc {
-  background-color:#f9f9f9;
-  color:#000;
   margin:1.2em 0 6px 0;
-  border:1px solid #ddd;
   height:93px;
 }
 
 #greenCol {
   background-color: #f5fffa;
-  height: 400px;
 }
 
 #blueCol {
   background-color: #f5faff;
   height: 400px;
+}
+
+#coins {
+  width:200px;
+  float: left;
+  margin: 10px;
 }
