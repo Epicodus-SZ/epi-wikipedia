@@ -7,6 +7,11 @@ a {
   color: #0645ad;
 }
 .container {
+
+}
+
+#wikiLogo h1 {
+  font-size: 24px;
 }
 
 .labelz {
@@ -33,6 +38,11 @@ a {
   padding: 5px 5px 5px 5px;
   border: 1px solid #a3b0bf;
 }
+
+.blue-wikitable ul {
+  padding-left: 25px;
+}
+
 #all-content {
 }
 
@@ -71,9 +81,24 @@ a {
 #prez {
   width:102px;
 }
+
+#pinafore {
+  width: 160px;
+}
+
 #toc {
   margin:1.2em 0 6px 0;
   height:93px;
+  background-color: #f9f9f9;
+  border: 1px solid #dddddd;
+}
+
+#LogoRow div ul {
+  margin-top: 14px;
+  font-size: 13px;
+  line-height: 1.6em;
+  padding: 10px;
+  padding-top: 0px;
 }
 
 #greenCol {
@@ -82,7 +107,6 @@ a {
 
 #blueCol {
   background-color: #f5faff;
-  height: 400px;
 }
 
 #coins {
